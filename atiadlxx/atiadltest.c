@@ -146,9 +146,9 @@ int main()
 
 		ADL_IF(ADL_Adapter_MemoryInfo_Get(ai[i].iAdapterIndex, &mem_info))
 		{
-			printf("memory_size:  %d\n", mem_info.iMemorySize);
+			printf("memory_size:  %lld\n", mem_info.iMemorySize);
 			printf("memory_type:  %s\n", mem_info.strMemoryType);
-			printf("memory_bw:    %d\n", mem_info.iMemoryBandwidth);
+			printf("memory_bw:    %lld\n", mem_info.iMemoryBandwidth);
 		}
 
 		ADL_IF(ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs))

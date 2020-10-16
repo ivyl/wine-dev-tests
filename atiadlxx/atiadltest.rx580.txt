@@ -1,4 +1,4 @@
-platform: GRAPHICS_PLATFORM_DESKTOP
+ERROR: ADL_OK == ADL_Graphics_Platform_Get(&platform) failed with 1
 adapters number 8
 
 index:        0
@@ -14,7 +14,7 @@ core_clock:   1350
 memory_clock: 2000
 asic_type:    0x1
 valids:       0xaf
-memory_size:  0
+memory_size:  8589934592
 memory_type:  GDDR5
 memory_bw:    256000
 ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
@@ -253,7 +253,7 @@ core_clock:   1350
 memory_clock: 2000
 asic_type:    0x1
 valids:       0xaf
-memory_size:  0
+memory_size:  8589934592
 memory_type:  GDDR5
 memory_bw:    256000
 ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
@@ -492,7 +492,7 @@ core_clock:   1350
 memory_clock: 2000
 asic_type:    0x1
 valids:       0xaf
-memory_size:  0
+memory_size:  8589934592
 memory_type:  GDDR5
 memory_bw:    256000
 ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
@@ -731,7 +731,7 @@ core_clock:   1350
 memory_clock: 2000
 asic_type:    0x1
 valids:       0xaf
-memory_size:  0
+memory_size:  8589934592
 memory_type:  GDDR5
 memory_bw:    256000
 ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
@@ -970,7 +970,7 @@ core_clock:   1350
 memory_clock: 2000
 asic_type:    0x1
 valids:       0xaf
-memory_size:  0
+memory_size:  8589934592
 memory_type:  GDDR5
 memory_bw:    256000
 ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
@@ -1209,7 +1209,7 @@ core_clock:   1350
 memory_clock: 2000
 asic_type:    0x1
 valids:       0xaf
-memory_size:  0
+memory_size:  8589934592
 memory_type:  GDDR5
 memory_bw:    256000
 ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
@@ -1448,7 +1448,7 @@ core_clock:   1350
 memory_clock: 2000
 asic_type:    0x1
 valids:       0xaf
-memory_size:  0
+memory_size:  8589934592
 memory_type:  GDDR5
 memory_bw:    256000
 ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
@@ -1687,7 +1687,7 @@ core_clock:   1350
 memory_clock: 2000
 asic_type:    0x1
 valids:       0xaf
-memory_size:  0
+memory_size:  8589934592
 memory_type:  GDDR5
 memory_bw:    256000
 ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
