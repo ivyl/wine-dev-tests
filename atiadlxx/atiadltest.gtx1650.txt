@@ -1,0 +1,475 @@
+platform: UNKNOWN (-1)
+adapters number 4
+
+index:        0
+udid:         PCI_VEN_10DE&DEV_2187&SUBSYS_8D951462&REV_A1_4&667118C&0&0008A
+bus:          1
+dev:          0
+func:         0
+vendor:       10
+name:         NVIDIA GeForce GTX 1650 SUPER
+disp:         \\.\DISPLAY1
+present:      1
+ERROR: ADL_Adapter_ObservedClockInfo_Get(ai[i].iAdapterIndex, &core_clock, &memory_clock) failed with -5
+ERROR: ADL_Adapter_ASICFamilyType_Get(ai[i].iAdapterIndex, &asic_type, &valids) failed with -8
+ERROR: ADL_Adapter_MemoryInfo_Get(ai[i].iAdapterIndex, &mem_info) failed with -1
+ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
+display 0:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: 0
+  display_name:   PL2779Q
+  manufacturer:   PL2779Q
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x103
+display 1:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      10
+  info_mask:      0x131fff
+  info:           0x100
+display 2:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      15
+  info_mask:      0x131fff
+  info:           0x100
+display 3:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 4:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 5:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 6:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 7:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+
+index:        1
+udid:         PCI_VEN_10DE&DEV_2187&SUBSYS_8D951462&REV_A1_4&667118C&0&0008&02A
+bus:          1
+dev:          0
+func:         0
+vendor:       10
+name:         NVIDIA GeForce GTX 1650 SUPER
+disp:         \\.\DISPLAY2
+present:      1
+ERROR: ADL_Adapter_ObservedClockInfo_Get(ai[i].iAdapterIndex, &core_clock, &memory_clock) failed with -5
+ERROR: ADL_Adapter_ASICFamilyType_Get(ai[i].iAdapterIndex, &asic_type, &valids) failed with -8
+ERROR: ADL_Adapter_MemoryInfo_Get(ai[i].iAdapterIndex, &mem_info) failed with -1
+ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
+display 0:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 1
+  phy_adap_index: 1
+  controller_idx: -1
+  display_name:   PL2779Q
+  manufacturer:   PL2779Q
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x101
+display 1:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 1
+  phy_adap_index: 1
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      10
+  info_mask:      0x131fff
+  info:           0x100
+display 2:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 1
+  phy_adap_index: 1
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      15
+  info_mask:      0x131fff
+  info:           0x100
+display 3:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 1
+  phy_adap_index: 1
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 4:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 1
+  phy_adap_index: 1
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 5:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 1
+  phy_adap_index: 1
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 6:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 1
+  phy_adap_index: 1
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 7:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 1
+  phy_adap_index: 1
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+
+index:        2
+udid:         PCI_VEN_10DE&DEV_2187&SUBSYS_8D951462&REV_A1_4&667118C&0&0008&03A
+bus:          1
+dev:          0
+func:         0
+vendor:       10
+name:         NVIDIA GeForce GTX 1650 SUPER
+disp:         \\.\DISPLAY3
+present:      1
+ERROR: ADL_Adapter_ObservedClockInfo_Get(ai[i].iAdapterIndex, &core_clock, &memory_clock) failed with -5
+ERROR: ADL_Adapter_ASICFamilyType_Get(ai[i].iAdapterIndex, &asic_type, &valids) failed with -8
+ERROR: ADL_Adapter_MemoryInfo_Get(ai[i].iAdapterIndex, &mem_info) failed with -1
+ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
+display 0:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 2
+  phy_adap_index: 2
+  controller_idx: -1
+  display_name:   PL2779Q
+  manufacturer:   PL2779Q
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x101
+display 1:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 2
+  phy_adap_index: 2
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      10
+  info_mask:      0x131fff
+  info:           0x100
+display 2:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 2
+  phy_adap_index: 2
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      15
+  info_mask:      0x131fff
+  info:           0x100
+display 3:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 2
+  phy_adap_index: 2
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 4:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 2
+  phy_adap_index: 2
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 5:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 2
+  phy_adap_index: 2
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 6:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 2
+  phy_adap_index: 2
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 7:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 2
+  phy_adap_index: 2
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+
+index:        3
+udid:         PCI_VEN_10DE&DEV_2187&SUBSYS_8D951462&REV_A1_4&667118C&0&0008&04A
+bus:          1
+dev:          0
+func:         0
+vendor:       10
+name:         NVIDIA GeForce GTX 1650 SUPER
+disp:         \\.\DISPLAY4
+present:      1
+ERROR: ADL_Adapter_ObservedClockInfo_Get(ai[i].iAdapterIndex, &core_clock, &memory_clock) failed with -5
+ERROR: ADL_Adapter_ASICFamilyType_Get(ai[i].iAdapterIndex, &asic_type, &valids) failed with -8
+ERROR: ADL_Adapter_MemoryInfo_Get(ai[i].iAdapterIndex, &mem_info) failed with -1
+ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
+display 0:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 3
+  phy_adap_index: 3
+  controller_idx: -1
+  display_name:   PL2779Q
+  manufacturer:   PL2779Q
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x101
+display 1:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 3
+  phy_adap_index: 3
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      10
+  info_mask:      0x131fff
+  info:           0x100
+display 2:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 3
+  phy_adap_index: 3
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      15
+  info_mask:      0x131fff
+  info:           0x100
+display 3:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 3
+  phy_adap_index: 3
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 4:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 3
+  phy_adap_index: 3
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 5:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 3
+  phy_adap_index: 3
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 6:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 3
+  phy_adap_index: 3
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+display 7:
+  logical_index:  -1
+  physical_index: -1
+  log_adap_index: 3
+  phy_adap_index: 3
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   0
+  display_output: 0
+  connector:      3
+  info_mask:      0x131fff
+  info:           0x100
+

@@ -1,0 +1,1915 @@
+platform: GRAPHICS_PLATFORM_DESKTOP
+adapters number 8
+
+index:        0
+udid:         PCI_VEN_1002&DEV_67DF&SUBSYS_2378148C&REV_E7_4&667118C&0&0008A
+bus:          1
+dev:          0
+func:         0
+vendor:       1002
+name:         Radeon RX 580 Series
+disp:         \\.\DISPLAY1
+present:      1
+core_clock:   1350
+memory_clock: 2000
+asic_type:    0x1
+valids:       0xaf
+memory_size:  0
+memory_type:  GDDR5
+memory_bw:    256000
+ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
+display 0:
+  logical_index:  0
+  physical_index: 0
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 1:
+  logical_index:  4
+  physical_index: 4
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 2:
+  logical_index:  8
+  physical_index: 8
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 3:
+  logical_index:  1
+  physical_index: 1
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 4:
+  logical_index:  2
+  physical_index: 2
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 5:
+  logical_index:  3
+  physical_index: 3
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 6:
+  logical_index:  5
+  physical_index: 5
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 7:
+  logical_index:  6
+  physical_index: 6
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 8:
+  logical_index:  7
+  physical_index: 7
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 9:
+  logical_index:  9
+  physical_index: 9
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 10:
+  logical_index:  10
+  physical_index: 10
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 11:
+  logical_index:  11
+  physical_index: 11
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 12:
+  logical_index:  12
+  physical_index: 12
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      10
+  info_mask:      0x31fff
+  info:           0x113b0
+display 13:
+  logical_index:  13
+  physical_index: 13
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   PL2779Q
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      2
+  info_mask:      0x31fff
+  info:           0x113b3
+display 14:
+  logical_index:  14
+  physical_index: 14
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      17
+  info_mask:      0x31fff
+  info:           0x11388
+display 15:
+  logical_index:  15
+  physical_index: 15
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+display 16:
+  logical_index:  16
+  physical_index: 16
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+
+index:        1
+udid:         PCI_VEN_1002&DEV_67DF&SUBSYS_2378148C&REV_E7_4&667118C&0&0008&02A
+bus:          1
+dev:          0
+func:         0
+vendor:       1002
+name:         Radeon RX 580 Series
+disp:         \\.\DISPLAY2
+present:      1
+core_clock:   1350
+memory_clock: 2000
+asic_type:    0x1
+valids:       0xaf
+memory_size:  0
+memory_type:  GDDR5
+memory_bw:    256000
+ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
+display 0:
+  logical_index:  0
+  physical_index: 0
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 1:
+  logical_index:  4
+  physical_index: 4
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 2:
+  logical_index:  8
+  physical_index: 8
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 3:
+  logical_index:  1
+  physical_index: 1
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 4:
+  logical_index:  2
+  physical_index: 2
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 5:
+  logical_index:  3
+  physical_index: 3
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 6:
+  logical_index:  5
+  physical_index: 5
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 7:
+  logical_index:  6
+  physical_index: 6
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 8:
+  logical_index:  7
+  physical_index: 7
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 9:
+  logical_index:  9
+  physical_index: 9
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 10:
+  logical_index:  10
+  physical_index: 10
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 11:
+  logical_index:  11
+  physical_index: 11
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 12:
+  logical_index:  12
+  physical_index: 12
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      10
+  info_mask:      0x31fff
+  info:           0x113b0
+display 13:
+  logical_index:  13
+  physical_index: 13
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   PL2779Q
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      2
+  info_mask:      0x31fff
+  info:           0x113b3
+display 14:
+  logical_index:  14
+  physical_index: 14
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      17
+  info_mask:      0x31fff
+  info:           0x11388
+display 15:
+  logical_index:  15
+  physical_index: 15
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+display 16:
+  logical_index:  16
+  physical_index: 16
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+
+index:        2
+udid:         PCI_VEN_1002&DEV_67DF&SUBSYS_2378148C&REV_E7_4&667118C&0&0008&03A
+bus:          1
+dev:          0
+func:         0
+vendor:       1002
+name:         Radeon RX 580 Series
+disp:         \\.\DISPLAY3
+present:      1
+core_clock:   1350
+memory_clock: 2000
+asic_type:    0x1
+valids:       0xaf
+memory_size:  0
+memory_type:  GDDR5
+memory_bw:    256000
+ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
+display 0:
+  logical_index:  0
+  physical_index: 0
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 1:
+  logical_index:  4
+  physical_index: 4
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 2:
+  logical_index:  8
+  physical_index: 8
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 3:
+  logical_index:  1
+  physical_index: 1
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 4:
+  logical_index:  2
+  physical_index: 2
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 5:
+  logical_index:  3
+  physical_index: 3
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 6:
+  logical_index:  5
+  physical_index: 5
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 7:
+  logical_index:  6
+  physical_index: 6
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 8:
+  logical_index:  7
+  physical_index: 7
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 9:
+  logical_index:  9
+  physical_index: 9
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 10:
+  logical_index:  10
+  physical_index: 10
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 11:
+  logical_index:  11
+  physical_index: 11
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 12:
+  logical_index:  12
+  physical_index: 12
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      10
+  info_mask:      0x31fff
+  info:           0x113b0
+display 13:
+  logical_index:  13
+  physical_index: 13
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   PL2779Q
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      2
+  info_mask:      0x31fff
+  info:           0x113b3
+display 14:
+  logical_index:  14
+  physical_index: 14
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      17
+  info_mask:      0x31fff
+  info:           0x11388
+display 15:
+  logical_index:  15
+  physical_index: 15
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+display 16:
+  logical_index:  16
+  physical_index: 16
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+
+index:        3
+udid:         PCI_VEN_1002&DEV_67DF&SUBSYS_2378148C&REV_E7_4&667118C&0&0008&04A
+bus:          1
+dev:          0
+func:         0
+vendor:       1002
+name:         Radeon RX 580 Series
+disp:         \\.\DISPLAY4
+present:      1
+core_clock:   1350
+memory_clock: 2000
+asic_type:    0x1
+valids:       0xaf
+memory_size:  0
+memory_type:  GDDR5
+memory_bw:    256000
+ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
+display 0:
+  logical_index:  0
+  physical_index: 0
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 1:
+  logical_index:  4
+  physical_index: 4
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 2:
+  logical_index:  8
+  physical_index: 8
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 3:
+  logical_index:  1
+  physical_index: 1
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 4:
+  logical_index:  2
+  physical_index: 2
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 5:
+  logical_index:  3
+  physical_index: 3
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 6:
+  logical_index:  5
+  physical_index: 5
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 7:
+  logical_index:  6
+  physical_index: 6
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 8:
+  logical_index:  7
+  physical_index: 7
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 9:
+  logical_index:  9
+  physical_index: 9
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 10:
+  logical_index:  10
+  physical_index: 10
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 11:
+  logical_index:  11
+  physical_index: 11
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 12:
+  logical_index:  12
+  physical_index: 12
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      10
+  info_mask:      0x31fff
+  info:           0x113b0
+display 13:
+  logical_index:  13
+  physical_index: 13
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   PL2779Q
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      2
+  info_mask:      0x31fff
+  info:           0x113b3
+display 14:
+  logical_index:  14
+  physical_index: 14
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      17
+  info_mask:      0x31fff
+  info:           0x11388
+display 15:
+  logical_index:  15
+  physical_index: 15
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+display 16:
+  logical_index:  16
+  physical_index: 16
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+
+index:        4
+udid:         PCI_VEN_1002&DEV_67DF&SUBSYS_2378148C&REV_E7_4&667118C&0&0008&05A
+bus:          1
+dev:          0
+func:         0
+vendor:       1002
+name:         Radeon RX 580 Series
+disp:         \\.\DISPLAY5
+present:      1
+core_clock:   1350
+memory_clock: 2000
+asic_type:    0x1
+valids:       0xaf
+memory_size:  0
+memory_type:  GDDR5
+memory_bw:    256000
+ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
+display 0:
+  logical_index:  0
+  physical_index: 0
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 1:
+  logical_index:  4
+  physical_index: 4
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 2:
+  logical_index:  8
+  physical_index: 8
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 3:
+  logical_index:  1
+  physical_index: 1
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 4:
+  logical_index:  2
+  physical_index: 2
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 5:
+  logical_index:  3
+  physical_index: 3
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 6:
+  logical_index:  5
+  physical_index: 5
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 7:
+  logical_index:  6
+  physical_index: 6
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 8:
+  logical_index:  7
+  physical_index: 7
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 9:
+  logical_index:  9
+  physical_index: 9
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 10:
+  logical_index:  10
+  physical_index: 10
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 11:
+  logical_index:  11
+  physical_index: 11
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 12:
+  logical_index:  12
+  physical_index: 12
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      10
+  info_mask:      0x31fff
+  info:           0x113b0
+display 13:
+  logical_index:  13
+  physical_index: 13
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   PL2779Q
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      2
+  info_mask:      0x31fff
+  info:           0x113b3
+display 14:
+  logical_index:  14
+  physical_index: 14
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      17
+  info_mask:      0x31fff
+  info:           0x11388
+display 15:
+  logical_index:  15
+  physical_index: 15
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+display 16:
+  logical_index:  16
+  physical_index: 16
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+
+index:        5
+udid:         PCI_VEN_1002&DEV_67DF&SUBSYS_2378148C&REV_E7_4&667118C&0&0008&06A
+bus:          1
+dev:          0
+func:         0
+vendor:       1002
+name:         Radeon RX 580 Series
+disp:         \\.\DISPLAY6
+present:      1
+core_clock:   1350
+memory_clock: 2000
+asic_type:    0x1
+valids:       0xaf
+memory_size:  0
+memory_type:  GDDR5
+memory_bw:    256000
+ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
+display 0:
+  logical_index:  0
+  physical_index: 0
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 1:
+  logical_index:  4
+  physical_index: 4
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 2:
+  logical_index:  8
+  physical_index: 8
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 3:
+  logical_index:  1
+  physical_index: 1
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 4:
+  logical_index:  2
+  physical_index: 2
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 5:
+  logical_index:  3
+  physical_index: 3
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 6:
+  logical_index:  5
+  physical_index: 5
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 7:
+  logical_index:  6
+  physical_index: 6
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 8:
+  logical_index:  7
+  physical_index: 7
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 9:
+  logical_index:  9
+  physical_index: 9
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 10:
+  logical_index:  10
+  physical_index: 10
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 11:
+  logical_index:  11
+  physical_index: 11
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 12:
+  logical_index:  12
+  physical_index: 12
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      10
+  info_mask:      0x31fff
+  info:           0x113b0
+display 13:
+  logical_index:  13
+  physical_index: 13
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   PL2779Q
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      2
+  info_mask:      0x31fff
+  info:           0x113b3
+display 14:
+  logical_index:  14
+  physical_index: 14
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      17
+  info_mask:      0x31fff
+  info:           0x11388
+display 15:
+  logical_index:  15
+  physical_index: 15
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+display 16:
+  logical_index:  16
+  physical_index: 16
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+
+index:        6
+udid:         PCI_VEN_1002&DEV_67DF&SUBSYS_2378148C&REV_E7_4&667118C&0&0008&07A
+bus:          1
+dev:          0
+func:         0
+vendor:       1002
+name:         Radeon RX 580 Series
+disp:         \\.\DISPLAY7
+present:      1
+core_clock:   1350
+memory_clock: 2000
+asic_type:    0x1
+valids:       0xaf
+memory_size:  0
+memory_type:  GDDR5
+memory_bw:    256000
+ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
+display 0:
+  logical_index:  0
+  physical_index: 0
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 1:
+  logical_index:  4
+  physical_index: 4
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 2:
+  logical_index:  8
+  physical_index: 8
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 3:
+  logical_index:  1
+  physical_index: 1
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 4:
+  logical_index:  2
+  physical_index: 2
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 5:
+  logical_index:  3
+  physical_index: 3
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 6:
+  logical_index:  5
+  physical_index: 5
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 7:
+  logical_index:  6
+  physical_index: 6
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 8:
+  logical_index:  7
+  physical_index: 7
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 9:
+  logical_index:  9
+  physical_index: 9
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 10:
+  logical_index:  10
+  physical_index: 10
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 11:
+  logical_index:  11
+  physical_index: 11
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 12:
+  logical_index:  12
+  physical_index: 12
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      10
+  info_mask:      0x31fff
+  info:           0x113b0
+display 13:
+  logical_index:  13
+  physical_index: 13
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   PL2779Q
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      2
+  info_mask:      0x31fff
+  info:           0x113b3
+display 14:
+  logical_index:  14
+  physical_index: 14
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      17
+  info_mask:      0x31fff
+  info:           0x11388
+display 15:
+  logical_index:  15
+  physical_index: 15
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+display 16:
+  logical_index:  16
+  physical_index: 16
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+
+index:        7
+udid:         PCI_VEN_1002&DEV_67DF&SUBSYS_2378148C&REV_E7_4&667118C&0&0008&08A
+bus:          1
+dev:          0
+func:         0
+vendor:       1002
+name:         Radeon RX 580 Series
+disp:         \\.\DISPLAY8
+present:      1
+core_clock:   1350
+memory_clock: 2000
+asic_type:    0x1
+valids:       0xaf
+memory_size:  0
+memory_type:  GDDR5
+memory_bw:    256000
+ERROR: ADL_Adapter_Crossfire_Caps(ai[i].iAdapterIndex, &cf_preferred, &cf_num_comb, &cf_combs) failed with -1
+display 0:
+  logical_index:  0
+  physical_index: 0
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 1:
+  logical_index:  4
+  physical_index: 4
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 2:
+  logical_index:  8
+  physical_index: 8
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 3:
+  logical_index:  1
+  physical_index: 1
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 4:
+  logical_index:  2
+  physical_index: 2
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 5:
+  logical_index:  3
+  physical_index: 3
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 6:
+  logical_index:  5
+  physical_index: 5
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 7:
+  logical_index:  6
+  physical_index: 6
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 8:
+  logical_index:  7
+  physical_index: 7
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 9:
+  logical_index:  9
+  physical_index: 9
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 10:
+  logical_index:  10
+  physical_index: 10
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 11:
+  logical_index:  11
+  physical_index: 11
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x113b0
+display 12:
+  logical_index:  12
+  physical_index: 12
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      10
+  info_mask:      0x31fff
+  info:           0x113b0
+display 13:
+  logical_index:  13
+  physical_index: 13
+  log_adap_index: 0
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   PL2779Q
+  manufacturer:   
+  display_type:   3
+  display_output: 4
+  connector:      2
+  info_mask:      0x31fff
+  info:           0x113b3
+display 14:
+  logical_index:  14
+  physical_index: 14
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      17
+  info_mask:      0x31fff
+  info:           0x11388
+display 15:
+  logical_index:  15
+  physical_index: 15
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+display 16:
+  logical_index:  16
+  physical_index: 16
+  log_adap_index: -1
+  phy_adap_index: 0
+  controller_idx: -1
+  display_name:   
+  manufacturer:   
+  display_type:   3
+  display_output: 0
+  connector:      15
+  info_mask:      0x31fff
+  info:           0x1328
+
