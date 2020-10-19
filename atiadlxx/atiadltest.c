@@ -35,13 +35,13 @@ typedef int(*ADL_MAIN_CONTROL_CREATE)(ADL_MAIN_MALLOC_CALLBACK, int);
 typedef int(*ADL_MAIN_CONTROL_DESTROY)();
 typedef int(*ADL_ADAPTER_NUMBEROFADAPTERS_GET)(int*);
 typedef int(*ADL_ADAPTER_ADAPTERINFO_GET)(LPAdapterInfo, int);
-typedef int(*ADL_DISPLAY_DISPLAYINFO_GET)(int adapter_index, int *num_displays, ADLDisplayInfo **info, int force_detect);
-typedef int(*ADL_ADAPTER_CROSSFIRE_CAPS)(int adapter_index, int *preffered, int *num_comb, ADLCrossfireComb** comb);
-typedef int(*ADL_ADAPTER_CROSSFIRE_GET)(int adapter_index, ADLCrossfireComb *comb, ADLCrossfireInfo *info);
-typedef int(*ADL_ADAPTER_ASICFAMILYTYPE_GET)(int adapter_index, int *asic_type, int *valids);
-typedef int(*ADL_ADAPTER_OBSERVEDCLOCKINFO_GET)(int adapter_index, int *core_clock, int *memory_clock);
-typedef int(*ADL_ADAPTER_MEMORYINFO_GET)(int adapter_index, ADLMemoryInfo *mem_info);
-typedef int(*ADL_GRAPHICS_PLATFORM_GET)(int *platform);
+typedef int(*ADL_DISPLAY_DISPLAYINFO_GET)(int, int*, ADLDisplayInfo**, int);
+typedef int(*ADL_ADAPTER_CROSSFIRE_CAPS)(int, int*, int*, ADLCrossfireComb**);
+typedef int(*ADL_ADAPTER_CROSSFIRE_GET)(int, ADLCrossfireComb*, ADLCrossfireInfo*);
+typedef int(*ADL_ADAPTER_ASICFAMILYTYPE_GET)(int, int*, int*);
+typedef int(*ADL_ADAPTER_OBSERVEDCLOCKINFO_GET)(int, int*, int*);
+typedef int(*ADL_ADAPTER_MEMORYINFO_GET)(int, ADLMemoryInfo*);
+typedef int(*ADL_GRAPHICS_PLATFORM_GET)(int*);
 
 ADL_MAIN_CONTROL_CREATE           ADL_Main_Control_Create = NULL;
 ADL_MAIN_CONTROL_DESTROY          ADL_Main_Control_Destroy = NULL;
@@ -95,7 +95,7 @@ int main()
 	LOAD_FUNCTION(adl, ADL_Graphics_Platform_Get);
 
 	assert(ADL_OK == ADL_Main_Control_Create(adl_malloc, 1));
-	ADL_IF(ADL_OK == ADL_Graphics_Platform_Get(&platform))
+	ADL_IF(ADL_Graphics_Platform_Get(&platform))
 	{
 		if (platform == GRAPHICS_PLATFORM_DESKTOP)
 			printf("platform: GRAPHICS_PLATFORM_DESKTOP\n");
@@ -131,6 +131,11 @@ int main()
 		printf("name:         %s\n", ai[i].strAdapterName);
 		printf("disp:         %s\n", ai[i].strDisplayName);
 		printf("present:      %d\n", ai[i].iPresent);
+		printf("exist:        %d\n", ai[i].iExist);
+		printf("drv_path:     %s\n", ai[i].strDriverPath);
+		printf("drv_path_ext: %s\n", ai[i].strDriverPathExt);
+		printf("strPNPString: %s\n", ai[i].strPNPString);
+		printf("os_disp_idx:  %i\n", ai[i].iOSDisplayIndex);
 
 		ADL_IF(ADL_Adapter_ObservedClockInfo_Get(ai[i].iAdapterIndex, &core_clock, &memory_clock))
 		{
@@ -186,7 +191,37 @@ int main()
 		putchar('\n');
 	}
 
+
+	{ /* a bunch of negative tests */
+		int core_clock, memory_clock;
+		int asic_type, valids;
+		ADLMemoryInfo mem_info;
+		int num_displays;
+		ADLDisplayInfo *display_info = NULL;
+
+		ADL_IF(ADL_Adapter_ObservedClockInfo_Get(-1, &core_clock, &memory_clock)) { }
+		ADL_IF(ADL_Adapter_ObservedClockInfo_Get(17, &core_clock, &memory_clock)) { }
+		ADL_IF(ADL_Adapter_ObservedClockInfo_Get(ai[0].iAdapterIndex, NULL, &memory_clock)) { }
+
+		ADL_IF(ADL_Adapter_ASICFamilyType_Get(ai[0].iAdapterIndex, NULL, &valids)) { }
+		ADL_IF(ADL_Adapter_ASICFamilyType_Get(17, &asic_type, &valids)) { }
+
+		ADL_IF(ADL_Adapter_MemoryInfo_Get(ai[0].iAdapterIndex, NULL)) {}
+		ADL_IF(ADL_Adapter_MemoryInfo_Get(17, &mem_info)) {}
+
+		ADL_IF(ADL_Adapter_AdapterInfo_Get(NULL, 0)) {}
+		ADL_IF(ADL_Adapter_AdapterInfo_Get(ai, 0)) {}
+		ADL_IF(ADL_Adapter_AdapterInfo_Get(ai, 1)) {}
+
+		/* crashes: ADL_IF(ADL_Adapter_AdapterInfo_Get(NULL, sizeof(ai))) {} */
+
+		ADL_IF(ADL_Display_DisplayInfo_Get(ai[0].iAdapterIndex, NULL, &display_info, 1)) { printf("got display info!\n"); }
+		ADL_IF(ADL_Display_DisplayInfo_Get(17, &num_displays, &display_info, 1)) { printf("got display info!\n"); }
+	}
+
 	assert(ADL_OK == ADL_Main_Control_Destroy());
+
+	ADL_IF(ADL_Adapter_AdapterInfo_Get(ai, sizeof(ai))) {}
 
 	return 0;
 }
